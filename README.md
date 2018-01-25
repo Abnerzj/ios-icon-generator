@@ -23,8 +23,8 @@ AUTHOR:
 LICENSE:
     This script follow MIT license.
 
-Formatter:
-    ./ios-icon-generator.sh [1024.png file]  [output path]
+FORMATTER:
+    ./ios-icon-generator.sh [1024.png file] [output path]
     
 EXAMPLE:
     ./ios-icon-generator.sh 1024.png ~/123
