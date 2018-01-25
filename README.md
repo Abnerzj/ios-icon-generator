@@ -49,6 +49,7 @@ chmod 777 ios-icon-generator.sh
 ```
 
 3. Run
+
 	Before you run this script,  please set two parameter. The first parameter is the path of 1024 * 1024 image.The second parameter is the export path, it is recommended to use the project's AppIcon.appiconset directory as the export path. ex:~/Desktop/GeneratorIconDemo/Assets.xcassets/AppIcon.appiconset
 ```bash
 StarnetdeMacBook-Pro:ios-icon-generator starnet$ ./ios-icon-generator.sh ~/Downloads/1024.png ~/output
