@@ -12,17 +12,20 @@ DESCRIPTION:
     This script aim to generate ios app icons easier and simply.
 
     srcfile - The source png image. Preferably above 1024x1024
-    dstpath - The destination path where the icons generate to.
+    dstpath - The destination path where the icons generate to.Suggest use the AppIcon.appiconset dir for the project. ex:~/Desktop/GeneratorIconDemo/Assets.xcassets/AppIcon.appiconset
 
     This script is depend on ImageMagick. So you must install ImageMagick first
     You can use 'sudo brew install ImageMagick' to install it
 
 AUTHOR:
-    Pawpaw<lvyexuwenfa100@126.com>
+    Abnerzj<Abnerzj@163.com>
 
 LICENSE:
     This script follow MIT license.
 
+Formatter:
+    ./ios-icon-generator.sh [1024.png file]  [output path]
+    
 EXAMPLE:
     ./ios-icon-generator.sh 1024.png ~/123
 
@@ -92,4 +95,4 @@ Use it in this way `./ios-custom-icon-generator.sh icon-big.png ~/asset_dir 100`
 This script follow MIT license.
 
 ### Contact
-If you have any question with using it, you can email to me. My email is: lvyexuwenfa100@126.com
+If you have any question with using it, you can email to me. My email is: Abnerzj@163.com
