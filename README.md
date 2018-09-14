@@ -47,7 +47,7 @@ sudo brew install ImageMagick
 ```bash
 git clone https://github.com/Abnerzj/ios-icon-generator
 cd ios-icon-generator
-chmod 777 ios-icon-generator.sh
+sh ios-icon-generator.sh
 ```
 
 3. Run
